@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (after 2015-jan-16 BZR unknown)-product   date = Saturday, 14 February 2015 13:36:36
+Cmp-Mod V01 Created by Cvpcb (after 2015-jan-16 BZR unknown)-product   date = Thursday, 02 April 2015 14:05:34
 
 BeginCmp
 TimeStamp = /54CF8EB0;
@@ -11,28 +11,28 @@ BeginCmp
 TimeStamp = /54D0FCD8;
 Reference = C1;
 ValeurCmp = C;
-IdModule  = SMD_Packages:SMD-0603_c;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CF8F9C;
 Reference = D1;
 ValeurCmp = DIODE;
-IdModule  = SMD_Packages:SMD-0805;
+IdModule  = Diodes_SMD:Diode-SMC_Handsoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CE7CB6;
 Reference = D2;
 ValeurCmp = LED;
-IdModule  = SMD_Packages:SMD-0805;
+IdModule  = LEDs:LED-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CE7D13;
 Reference = D3;
 ValeurCmp = LED;
-IdModule  = SMD_Packages:SMD-0805;
+IdModule  = LEDs:LED-0805;
 EndCmp
 
 BeginCmp
@@ -60,42 +60,105 @@ BeginCmp
 TimeStamp = /54D8AD15;
 Reference = Q1;
 ValeurCmp = NPN;
-IdModule  = SMD_Packages:SOT-23;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F1A32E;
+Reference = Q2;
+ValeurCmp = NPN;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F1A430;
+Reference = Q3;
+ValeurCmp = NPN;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23_Handsoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D10405;
 Reference = R1;
 ValeurCmp = R;
-IdModule  = SMD_Packages:SMD-0603_r;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D10451;
 Reference = R2;
 ValeurCmp = R;
-IdModule  = SMD_Packages:SMD-0603_r;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D8AD64;
 Reference = R3;
 ValeurCmp = R;
-IdModule  = SMD_Packages:SMD-0603_r;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D8AA25;
 Reference = R4;
 ValeurCmp = R;
-IdModule  = SMD_Packages:SMD-0603_r;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D8AA66;
 Reference = R5;
 ValeurCmp = R;
-IdModule  = SMD_Packages:SMD-0603_r;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EAF52E;
+Reference = R6;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EAF5B7;
+Reference = R7;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F1B2F9;
+Reference = R8;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F1B9F8;
+Reference = R9;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F1CF92;
+Reference = R10;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F1D2C3;
+Reference = R11;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F1CE9D;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = igrow:SPSTSW;
 EndCmp
 
 BeginCmp
@@ -110,6 +173,13 @@ TimeStamp = /54D0FB67;
 Reference = U2;
 ValeurCmp = SHT21;
 IdModule  = igrow:SHT21;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EAE7A7;
+Reference = U3;
+ValeurCmp = TL972;
+IdModule  = Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;
 EndCmp
 
 EndListe

@@ -1,0 +1,17 @@
+
+*
+* @(#)LNJ953W8CRA.lib   
+*
+* Copyright (c) 2015 Argusat Limited
+* 10 Underwood Road,  Southampton.  UK
+* All rights reserved.
+*
+* This software is the confidential and proprietary information of 
+* Argusat Limited. ("Confidential Information").  You shall not
+* disclose such Confidential Information and shall use it only in
+* accordance with the terms of the license agreement you entered into
+* with Argusat Limited.
+*
+
+.MODEL LNJ953W8CRA d
++IS = 1.61436617932e-13 N = 1.72654237124 RS = 7.67270000296

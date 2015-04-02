@@ -1,0 +1,34 @@
+* EESchema Netlist Version 1.1 (Spice format) creation date: Sunday, 15 March 2015 07:29:42
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+*Sheet Name:/
+U1  Net-_U1-Pad1_ Net-_U1-Pad2_ ? ? ? ? ? ? ? GND VCC ? ? ? ? ? Net-_R11-Pad1_ ? Net-_R3-Pad2_ ? ? ? ? ? ? ? ? ? ? ? Net-_P1-Pad2_ Net-_P1-Pad4_ Net-_R2-Pad2_ ? ? Net-_R1-Pad2_ NRF51822-MODULE
+P1  VTG Net-_P1-Pad2_ GND Net-_P1-Pad4_ GND ? ? ? GND ? CONN_02X05
+D2  Net-_D2-Pad1_ Net-_D2-Pad2_ LED
+D3  Net-_D3-Pad1_ Net-_D3-Pad2_ LED
+BT1  ? GND BATTERY
+D1  GND VCC DIODE
+U2  Net-_U1-Pad1_ GND ? ? VCC Net-_U1-Pad2_ SHT21
+C1  VCC GND C
+R1  Net-_Q2-Pad2_ Net-_R1-Pad2_ R
+R2  Net-_Q3-Pad2_ Net-_R2-Pad2_ R
+R4  VCC Net-_D4-Pad2_ R
+R5  Net-_D4-Pad2_ Net-_D4-Pad1_ R
+PIEZO1  Net-_D4-Pad2_ Net-_D4-Pad1_ PIEZO
+D4  Net-_D4-Pad1_ Net-_D4-Pad2_ ZENER
+Q1  GND Net-_Q1-Pad2_ Net-_D4-Pad1_ NPN
+R3  Net-_Q1-Pad2_ Net-_R3-Pad2_ R
+U3  ? Net-_R6-Pad2_ ? GND GND GND ? VCC TL972
+R6  VCC Net-_R6-Pad2_ R
+R7  Net-_R6-Pad2_ GND R
+Q2  GND Net-_Q2-Pad2_ Net-_D2-Pad2_ NPN
+Q3  GND Net-_Q3-Pad2_ Net-_D3-Pad2_ NPN
+R8  VCC Net-_D2-Pad1_ R
+R9  VCC Net-_D3-Pad1_ R
+SW1  Net-_R10-Pad2_ GND SW_PUSH
+R10  VCC Net-_R10-Pad2_ R
+R11  Net-_R11-Pad1_ Net-_R10-Pad2_ R
+
+.end
