@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by Cvpcb (after 2015-jan-16 BZR unknown)-product   date = Thursday, 02 April 2015 14:05:34
+Cmp-Mod V01 Created by Cvpcb (after 2015-jan-16 BZR unknown)-product   date = Monday, 06 April 2015 10:00:03
 
 BeginCmp
 TimeStamp = /54CF8EB0;
 Reference = BT1;
 ValeurCmp = BATTERY;
-IdModule  = guan:BAT-BK912;
+IdModule  = igrow:CR2032_THRUHOLE;
 EndCmp
 
 BeginCmp
@@ -53,7 +53,7 @@ BeginCmp
 TimeStamp = /54D8ABBE;
 Reference = PIEZO1;
 ValeurCmp = PIEZO;
-IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp

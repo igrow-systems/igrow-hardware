@@ -339,7 +339,7 @@ U 1 1 54D8ABBE
 P 4300 6400
 F 0 "PIEZO1" H 4400 6450 40  0000 L CNN
 F 1 "PIEZO" H 4400 6350 40  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" H 4300 6400 60  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4300 6400 60  0001 C CNN
 F 3 "" H 4300 6400 60  0000 C CNN
 	1    4300 6400
 	1    0    0    -1  

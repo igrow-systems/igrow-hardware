@@ -21,7 +21,7 @@
       )
     )
     (boundary
-      (rect pcb 133204 -93441 200090 -133109)
+      (rect pcb 130811 -94020 177334 -134579)
     )
     (via "Via[0-1]_889:635_um")
     (rule
@@ -32,80 +32,60 @@
     )
   )
   (placement
-    (component "guan:BAT-BK912"
-      (place BT1 186690 -107950 front 90 (PN BATTERY))
-    )
     (component Capacitors_SMD:C_0603_HandSoldering
-      (place C1 148590 -96520 front 0 (PN C))
+      (place C1 146558 -105410 front 90 (PN C))
     )
     (component "Diodes_SMD:Diode-SMC_Handsoldering"
-      (place D1 176530 -127000 front 180 (PN DIODE))
+      (place D1 143510 -109982 front 180 (PN DIODE))
     )
     (component "LEDs:LED-0805"
-      (place D2 144780 -114300 front 270 (PN LED))
-      (place D3 152400 -114300 front 270 (PN LED))
-    )
-    (component igrow:SOD123
-      (place D4 137160 -100330 front 270 (PN ZENER))
+      (place D2 145288 -119634 front 270 (PN LED))
+      (place D3 147828 -119634 front 270 (PN LED))
     )
     (component "igrow:harwin_m50-3600542"
-      (place P1 187960 -123190 front 0 (PN CONN_02X05))
-    )
-    (component Resistors_ThroughHole:Resistor_Horizontal_RM10mm
-      (place PIEZO1 139700 -101600 front 90 (PN PIEZO))
+      (place P1 172720 -129540 front 180 (PN CONN_02X05))
     )
     (component "Housings_SOT-23_SOT-143_TSOT-6:SOT-23_Handsoldering"
-      (place Q1 139700 -120650 front 0 (PN NPN))
-      (place Q2 144780 -120650 front 0 (PN NPN))
-      (place Q3 149860 -120650 front 0 (PN NPN))
+      (place Q1 148336 -126746 front 0 (PN NPN))
+      (place Q2 153416 -126746 front 0 (PN NPN))
+      (place Q3 158496 -126746 front 0 (PN NPN))
     )
     (component Resistors_SMD:R_0603_HandSoldering
-      (place R1 163830 -127635 front 0 (PN R))
-      (place R2 163830 -130175 front 0 (PN R))
-      (place R3 163830 -124460 front 0 (PN R))
-      (place R4 152400 -102235 front 270 (PN R))
-      (place R5 142875 -101600 front 90 (PN R))
-      (place R6 146050 -101600 front 270 (PN R))
-      (place R7 148590 -98425 front 0 (PN R))
-      (place R8 144780 -109855 front 270 (PN R))
-      (place R9 152400 -109855 front 270 (PN R))
-      (place R10 153670 -121285 front 270 (PN R))
-      (place R11 158750 -124460 front 180 (PN R))
+      (place R1 163830 -129794 front 0 (PN R))
+      (place R2 163830 -128016 front 0 (PN R))
+      (place R3 163830 -126238 front 0 (PN R))
+      (place R4 142240 -114554 front 270 (PN R))
+      (place R5 142240 -119634 front 270 (PN R))
+      (place R6 145288 -99314 front 270 (PN R))
+      (place R7 147066 -99314 front 90 (PN R))
+      (place R8 145288 -114681 front 270 (PN R))
+      (place R9 148082 -115316 front 270 (PN R))
+      (place R10 163830 -124460 front 180 (PN R))
+      (place R11 163830 -122682 front 180 (PN R))
     )
     (component igrow:SPSTSW
-      (place SW1 144780 -125730 front 0 (PN SW_PUSH))
+      (place SW1 144272 -124714 front 270 (PN SW_PUSH))
     )
     (component "igrow:XL51822-D01"
       (place U1 156210 -105410 front 0 (PN "NRF51822-MODULE"))
     )
     (component igrow:SHT21
-      (place U2 149860 -104775 front 180 (PN SHT21))
+      (place U2 150368 -104140 front 180 (PN SHT21))
     )
     (component "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm"
-      (place U3 137795 -111760 front 180 (PN TL972))
+      (place U3 139700 -101600 front 180 (PN TL972))
+    )
+    (component igrow:CR2032_THRUHOLE
+      (place BT1 152908 -112014 front 270 (PN BATTERY))
+    )
+    (component igrow:SOD123
+      (place D4 136652 -121412 front 90 (PN ZENER))
+    )
+    (component Resistors_SMD:R_0805_HandSoldering
+      (place PIEZO1 139446 -119634 front 270 (PN PIEZO))
     )
   )
   (library
-    (image "guan:BAT-BK912"
-      (outline (path signal 150  8500 8000  6000 8000))
-      (outline (path signal 150  -8500 8000  -6000 8000))
-      (outline (path signal 150  -8500 -8000  -6000 -8000))
-      (outline (path signal 150  -8500 8000  -11000 5500))
-      (outline (path signal 150  -11000 5500  -11000 -5500))
-      (outline (path signal 150  -11000 -5500  -8500 -8000))
-      (outline (path signal 150  8500 -8000  6000 -8000))
-      (outline (path signal 150  8500 8000  11000 5500))
-      (outline (path signal 150  11000 5500  11000 -5500))
-      (outline (path signal 150  11000 -5500  8500 -8000))
-      (outline (path signal 150  10000 0  9510.57 -3090.17  8090.17 -5877.85  5877.85 -8090.17
-            3090.17 -9510.57  0 -10000  -3090.17 -9510.57  -5877.85 -8090.17
-            -8090.17 -5877.85  -9510.57 -3090.17  -10000 0  -9510.57 3090.17
-            -8090.17 5877.85  -5877.85 8090.17  -3090.17 9510.57  0 10000
-            3090.17 9510.57  5877.85 8090.17  8090.17 5877.85  9510.57 3090.17))
-      (pin Rect[T]Pad_2790x5080_um 1 -11000 0)
-      (pin Rect[T]Pad_2790x5080_um 1@1 11000 0)
-      (pin Round[T]Pad_17780_um 2 0 0)
-    )
     (image Capacitors_SMD:C_0603_HandSoldering
       (outline (path signal 50  -1850 750  1850 750))
       (outline (path signal 50  -1850 -750  1850 -750))
@@ -208,10 +188,6 @@
       (pin Rect[T]Pad_1198.88x1198.88_um 1 -1049.02 0)
       (pin Rect[T]Pad_1198.88x1198.88_um 2 1049.02 0)
     )
-    (image igrow:SOD123
-      (pin Rect[T]Pad_850x850_um 1 0 0)
-      (pin Rect[T]Pad_850x850_um 2 3175 0)
-    )
     (image "igrow:harwin_m50-3600542"
       (pin Rect[T]Pad_2400x740_um 1 0 0)
       (pin Rect[T]Pad_2400x740_um 2 0 -1270)
@@ -223,16 +199,6 @@
       (pin Rect[T]Pad_2400x740_um 8 3810 -2540)
       (pin Rect[T]Pad_2400x740_um 9 3810 -1270)
       (pin Rect[T]Pad_2400x740_um 10 3810 0)
-    )
-    (image Resistors_ThroughHole:Resistor_Horizontal_RM10mm
-      (outline (path signal 150  -2540 1270  2540 1270))
-      (outline (path signal 150  2540 1270  2540 -1270))
-      (outline (path signal 150  2540 -1270  -2540 -1270))
-      (outline (path signal 150  -2540 -1270  -2540 1270))
-      (outline (path signal 150  -2540 0  -3810 0))
-      (outline (path signal 150  2540 0  3810 0))
-      (pin Round[A]Pad_1998.98_um 1 -5080 0)
-      (pin Round[A]Pad_1998.98_um 2 5080 0)
     )
     (image "Housings_SOT-23_SOT-143_TSOT-6:SOT-23_Handsoldering"
       (outline (path signal 150  -1499.82 -50.8  -1499.82 650.24))
@@ -335,6 +301,29 @@
       (pin Rect[T]Pad_1550x600_um 7 2700 635)
       (pin Rect[T]Pad_1550x600_um 8 2700 1905)
     )
+    (image igrow:CR2032_THRUHOLE
+      (outline (path signal 150  10337.1 -8255  9831.12 -11449.3  8362.85 -14331  6075.97 -16617.8
+            3194.32 -18086.1  0 -18592.1  -3194.32 -18086.1  -6075.97 -16617.8
+            -8362.85 -14331  -9831.12 -11449.3  -10337.1 -8255  -9831.12 -5060.68
+            -8362.85 -2179.03  -6075.97 107.85  -3194.32 1576.12  0 2082.05
+            3194.32 1576.12  6075.97 107.85  8362.85 -2179.03  9831.12 -5060.68))
+      (pin Round[A]Pad_1524_um 1 0 0)
+      (pin Round[A]Pad_1524_um 2 0 -20320)
+    )
+    (image igrow:SOD123
+      (pin Rect[T]Pad_910x1220_um 1 0 0)
+      (pin Rect[T]Pad_910x1220_um 2 3276.6 0)
+    )
+    (image Resistors_SMD:R_0805_HandSoldering
+      (outline (path signal 50  -2400 1000  2400 1000))
+      (outline (path signal 50  -2400 -1000  2400 -1000))
+      (outline (path signal 50  -2400 1000  -2400 -1000))
+      (outline (path signal 50  2400 1000  2400 -1000))
+      (outline (path signal 150  600 -875  -600 -875))
+      (outline (path signal 150  -600 875  600 875))
+      (pin Rect[T]Pad_1500x1300_um 1 -1350 0)
+      (pin Rect[T]Pad_1500x1300_um 2 1350 0)
+    )
     (padstack Round[A]Pad_1000_um
       (shape (circle F.Cu 1000))
       (shape (circle In1.Cu 1000))
@@ -345,25 +334,12 @@
       (shape (circle In1.Cu 1524))
       (attach off)
     )
-    (padstack Round[T]Pad_17780_um
-      (shape (circle F.Cu 17780))
-      (attach off)
-    )
-    (padstack Round[A]Pad_1998.98_um
-      (shape (circle F.Cu 1998.98))
-      (shape (circle In1.Cu 1998.98))
-      (attach off)
-    )
     (padstack Rect[T]Pad_2400x740_um
       (shape (rect F.Cu -1200 -370 1200 370))
       (attach off)
     )
     (padstack Rect[T]Pad_2400x1500_um
       (shape (rect F.Cu -1200 -750 1200 750))
-      (attach off)
-    )
-    (padstack Rect[T]Pad_2790x5080_um
-      (shape (rect F.Cu -1395 -2540 1395 2540))
       (attach off)
     )
     (padstack Rect[T]Pad_3299.46x4498.34_um
@@ -382,8 +358,8 @@
       (shape (rect F.Cu -400.05 -900.43 400.05 900.43))
       (attach off)
     )
-    (padstack Rect[T]Pad_850x850_um
-      (shape (rect F.Cu -425 -425 425 425))
+    (padstack Rect[T]Pad_910x1220_um
+      (shape (rect F.Cu -455 -610 455 610))
       (attach off)
     )
     (padstack Rect[T]Pad_1198.88x1198.88_um
@@ -398,6 +374,10 @@
       (shape (rect F.Cu -600 -450 600 450))
       (attach off)
     )
+    (padstack Rect[T]Pad_1500x1300_um
+      (shape (rect F.Cu -750 -650 750 650))
+      (attach off)
+    )
     (padstack Rect[T]Pad_1550x600_um
       (shape (rect F.Cu -775 -300 775 300))
       (attach off)
@@ -410,11 +390,11 @@
   )
   (network
     (net "Net-(BT1-Pad1)"
-      (pins BT1-1 BT1-1@1)
+      (pins BT1-1)
     )
     (net GND
-      (pins BT1-2 C1-2 D1-1 P1-3 P1-5 P1-9 Q1-1 Q2-1 Q3-1 R7-2 SW1-2 U1-10 U2-2 U3-4
-        U3-5 U3-6)
+      (pins C1-2 D1-1 P1-3 P1-5 P1-9 Q1-1 Q2-1 Q3-1 R7-2 SW1-2 U1-10 U2-2 U3-4 U3-5
+        U3-6 BT1-2)
     )
     (net VCC
       (pins C1-1 D1-2 R4-1 R6-1 R8-1 R9-1 R10-1 U1-11 U2-5 U3-8)
@@ -432,10 +412,10 @@
       (pins D3-2 Q3-3)
     )
     (net "Net-(D4-Pad1)"
-      (pins D4-1 PIEZO1-2 Q1-3 R5-2)
+      (pins Q1-3 R5-2 D4-1 PIEZO1-2)
     )
     (net "Net-(D4-Pad2)"
-      (pins D4-2 PIEZO1-1 R4-2 R5-1)
+      (pins R4-2 R5-1 D4-2 PIEZO1-1)
     )
     (net VTG
       (pins P1-1)
@@ -468,10 +448,10 @@
       (pins Q3-2 R2-1)
     )
     (net "Net-(R1-Pad2)"
-      (pins R1-2 U1-36)
+      (pins R1-2 U1-21)
     )
     (net "Net-(R2-Pad2)"
-      (pins R2-2 U1-33)
+      (pins R2-2 U1-20)
     )
     (net "Net-(R3-Pad2)"
       (pins R3-2 U1-19)
@@ -530,12 +510,6 @@
     (net "Net-(U1-Pad18)"
       (pins U1-18)
     )
-    (net "Net-(U1-Pad20)"
-      (pins U1-20)
-    )
-    (net "Net-(U1-Pad21)"
-      (pins U1-21)
-    )
     (net "Net-(U1-Pad22)"
       (pins U1-22)
     )
@@ -584,19 +558,25 @@
     (net "Net-(U3-Pad7)"
       (pins U3-7)
     )
+    (net "Net-(U1-Pad33)"
+      (pins U1-33)
+    )
+    (net "Net-(U1-Pad36)"
+      (pins U1-36)
+    )
     (class kicad_default "" GND "Net-(BT1-Pad1)" "Net-(D2-Pad1)" "Net-(D2-Pad2)"
       "Net-(D3-Pad1)" "Net-(D3-Pad2)" "Net-(D4-Pad1)" "Net-(D4-Pad2)" "Net-(P1-Pad10)"
       "Net-(P1-Pad2)" "Net-(P1-Pad4)" "Net-(P1-Pad6)" "Net-(P1-Pad7)" "Net-(P1-Pad8)"
       "Net-(Q1-Pad2)" "Net-(Q2-Pad2)" "Net-(Q3-Pad2)" "Net-(R1-Pad2)" "Net-(R10-Pad2)"
       "Net-(R11-Pad1)" "Net-(R2-Pad2)" "Net-(R3-Pad2)" "Net-(R6-Pad2)" "Net-(U1-Pad1)"
       "Net-(U1-Pad12)" "Net-(U1-Pad13)" "Net-(U1-Pad14)" "Net-(U1-Pad15)"
-      "Net-(U1-Pad16)" "Net-(U1-Pad18)" "Net-(U1-Pad2)" "Net-(U1-Pad20)" "Net-(U1-Pad21)"
-      "Net-(U1-Pad22)" "Net-(U1-Pad23)" "Net-(U1-Pad24)" "Net-(U1-Pad25)"
-      "Net-(U1-Pad26)" "Net-(U1-Pad27)" "Net-(U1-Pad28)" "Net-(U1-Pad29)"
-      "Net-(U1-Pad3)" "Net-(U1-Pad30)" "Net-(U1-Pad34)" "Net-(U1-Pad35)" "Net-(U1-Pad4)"
-      "Net-(U1-Pad5)" "Net-(U1-Pad6)" "Net-(U1-Pad7)" "Net-(U1-Pad8)" "Net-(U1-Pad9)"
-      "Net-(U2-Pad3)" "Net-(U2-Pad4)" "Net-(U3-Pad1)" "Net-(U3-Pad3)" "Net-(U3-Pad7)"
-      VCC VTG
+      "Net-(U1-Pad16)" "Net-(U1-Pad18)" "Net-(U1-Pad2)" "Net-(U1-Pad22)" "Net-(U1-Pad23)"
+      "Net-(U1-Pad24)" "Net-(U1-Pad25)" "Net-(U1-Pad26)" "Net-(U1-Pad27)"
+      "Net-(U1-Pad28)" "Net-(U1-Pad29)" "Net-(U1-Pad3)" "Net-(U1-Pad30)" "Net-(U1-Pad33)"
+      "Net-(U1-Pad34)" "Net-(U1-Pad35)" "Net-(U1-Pad36)" "Net-(U1-Pad4)" "Net-(U1-Pad5)"
+      "Net-(U1-Pad6)" "Net-(U1-Pad7)" "Net-(U1-Pad8)" "Net-(U1-Pad9)" "Net-(U2-Pad3)"
+      "Net-(U2-Pad4)" "Net-(U3-Pad1)" "Net-(U3-Pad3)" "Net-(U3-Pad7)" VCC
+      VTG
       (circuit
         (use_via Via[0-1]_889:635_um)
       )
