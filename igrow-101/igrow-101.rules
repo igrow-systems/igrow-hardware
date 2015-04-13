@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 423)
+    (start_pass_no 512)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -27,7 +27,7 @@
   )
   (rule
     (width 381.0)
-    (clear 381.0)
+    (clear 508.0)
     (clear 190.5 (type smd_to_turn_gap))
     (clear 254.2 (type default_smd))
     (clear 254.2 (type default_"kicad_default"))
