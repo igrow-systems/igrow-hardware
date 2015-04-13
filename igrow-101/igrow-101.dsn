@@ -26,7 +26,7 @@
     )
     (via "Via[0-1]_889:635_um")
     (rule
-      (width 254)
+      (width 381)
       (clearance 254.1)
       (clearance 254.1 (type default_smd))
       (clearance 63.5 (type smd_smd))
@@ -34,10 +34,10 @@
   )
   (placement
     (component Capacitors_SMD:C_0603_HandSoldering
-      (place C1 146558 -105410 front 90 (PN C))
+      (place C1 149352 -101600 front 90 (PN C))
     )
     (component "Diodes_SMD:Diode-SMC_Handsoldering"
-      (place D1 143510 -109982 front 180 (PN DIODE))
+      (place D1 139446 -110236 front 0 (PN DIODE))
     )
     (component "LEDs:LED-0805"
       (place D2 145288 -119634 front 270 (PN LED))
@@ -54,8 +54,8 @@
       (place R3 163830 -129794 front 0 (PN R))
       (place R4 142240 -114554 front 270 (PN R))
       (place R5 142240 -119634 front 270 (PN R))
-      (place R6 145288 -99314 front 270 (PN R))
-      (place R7 147066 -99314 front 90 (PN R))
+      (place R6 146812 -101600 front 270 (PN R))
+      (place R7 144780 -101600 front 90 (PN R))
       (place R8 145288 -114681 front 270 (PN R))
       (place R9 148082 -115316 front 270 (PN R))
       (place R10 163830 -124460 front 180 (PN R))
@@ -68,13 +68,13 @@
       (place U1 176530 -103378 back 0 (PN "NRF51822-MODULE"))
     )
     (component igrow:SHT21
-      (place U2 150368 -104140 front 180 (PN SHT21))
+      (place U2 152908 -100584 front 180 (PN SHT21))
     )
     (component "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm"
       (place U3 139700 -101600 front 180 (PN TL972))
     )
     (component igrow:CR2032_THRUHOLE
-      (place BT1 152908 -112014 front 270 (PN BATTERY))
+      (place BT1 152908 -116332 front 270 (PN BATTERY))
     )
     (component igrow:SOD123
       (place D4 136652 -121412 front 90 (PN ZENER))
@@ -83,10 +83,10 @@
       (place PIEZO1 139446 -119634 front 270 (PN PIEZO))
     )
     (component "igrow:harwin_m50-3600542"
-      (place P1 170307 -121412 front 0 (PN CONN_02X05))
+      (place P1 153670 -107188 front 270 (PN CONN_02X05))
     )
     (component "Mounting_Holes:MountingHole_2-5mm"
-      (place MH1 134620 -96393 front 0 (PN "MountingHole_2-5mm"))
+      (place MH1 134620 -96520 front 0 (PN "MountingHole_2-5mm"))
       (place MH2 177800 -96520 front 0 (PN "MountingHole_2-5mm"))
       (place MH3 177800 -129540 front 0 (PN "MountingHole_2-5mm"))
       (place MH4 134620 -129540 front 0 (PN "MountingHole_2-5mm"))
@@ -574,24 +574,23 @@
     (net "Net-(U1-Pad17)"
       (pins U1-17)
     )
-    (class kicad_default "" GND "Net-(BT1-Pad1)" "Net-(D2-Pad1)" "Net-(D2-Pad2)"
-      "Net-(D3-Pad1)" "Net-(D3-Pad2)" "Net-(D4-Pad1)" "Net-(D4-Pad2)" "Net-(P1-Pad10)"
-      "Net-(P1-Pad2)" "Net-(P1-Pad4)" "Net-(P1-Pad6)" "Net-(P1-Pad7)" "Net-(P1-Pad8)"
-      "Net-(Q1-Pad2)" "Net-(Q2-Pad2)" "Net-(Q3-Pad2)" "Net-(R1-Pad2)" "Net-(R10-Pad2)"
-      "Net-(R11-Pad1)" "Net-(R2-Pad2)" "Net-(R3-Pad2)" "Net-(R6-Pad2)" "Net-(U1-Pad1)"
-      "Net-(U1-Pad12)" "Net-(U1-Pad13)" "Net-(U1-Pad14)" "Net-(U1-Pad15)"
-      "Net-(U1-Pad16)" "Net-(U1-Pad17)" "Net-(U1-Pad18)" "Net-(U1-Pad2)" "Net-(U1-Pad22)"
-      "Net-(U1-Pad23)" "Net-(U1-Pad24)" "Net-(U1-Pad25)" "Net-(U1-Pad26)"
-      "Net-(U1-Pad27)" "Net-(U1-Pad28)" "Net-(U1-Pad29)" "Net-(U1-Pad3)" "Net-(U1-Pad30)"
-      "Net-(U1-Pad33)" "Net-(U1-Pad34)" "Net-(U1-Pad35)" "Net-(U1-Pad36)"
-      "Net-(U1-Pad4)" "Net-(U1-Pad5)" "Net-(U1-Pad6)" "Net-(U1-Pad7)" "Net-(U1-Pad8)"
-      "Net-(U1-Pad9)" "Net-(U2-Pad3)" "Net-(U2-Pad4)" "Net-(U3-Pad1)" "Net-(U3-Pad3)"
-      "Net-(U3-Pad7)" VCC VTG
+    (class kicad_default "" GND "Net-(D2-Pad1)" "Net-(D2-Pad2)" "Net-(D3-Pad1)"
+      "Net-(D3-Pad2)" "Net-(D4-Pad1)" "Net-(D4-Pad2)" "Net-(P1-Pad10)" "Net-(P1-Pad2)"
+      "Net-(P1-Pad4)" "Net-(P1-Pad6)" "Net-(P1-Pad7)" "Net-(P1-Pad8)" "Net-(Q1-Pad2)"
+      "Net-(Q2-Pad2)" "Net-(Q3-Pad2)" "Net-(R1-Pad2)" "Net-(R10-Pad2)" "Net-(R11-Pad1)"
+      "Net-(R2-Pad2)" "Net-(R3-Pad2)" "Net-(R6-Pad2)" "Net-(U1-Pad1)" "Net-(U1-Pad12)"
+      "Net-(U1-Pad13)" "Net-(U1-Pad14)" "Net-(U1-Pad15)" "Net-(U1-Pad16)"
+      "Net-(U1-Pad17)" "Net-(U1-Pad18)" "Net-(U1-Pad2)" "Net-(U1-Pad23)" "Net-(U1-Pad24)"
+      "Net-(U1-Pad25)" "Net-(U1-Pad26)" "Net-(U1-Pad27)" "Net-(U1-Pad28)"
+      "Net-(U1-Pad29)" "Net-(U1-Pad3)" "Net-(U1-Pad30)" "Net-(U1-Pad33)" "Net-(U1-Pad34)"
+      "Net-(U1-Pad35)" "Net-(U1-Pad36)" "Net-(U1-Pad4)" "Net-(U1-Pad5)" "Net-(U1-Pad6)"
+      "Net-(U1-Pad7)" "Net-(U1-Pad8)" "Net-(U1-Pad9)" "Net-(U2-Pad3)" "Net-(U2-Pad4)"
+      "Net-(U3-Pad1)" "Net-(U3-Pad3)" "Net-(U3-Pad7)" VCC
       (circuit
         (use_via Via[0-1]_889:635_um)
       )
       (rule
-        (width 254)
+        (width 381)
         (clearance 254.1)
       )
     )
