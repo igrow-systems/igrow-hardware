@@ -1166,7 +1166,7 @@
   (target plus (at 134.62 129.54) (size 5) (width 0.15) (layer Edge.Cuts))
   (target plus (at 177.8 129.54) (size 5) (width 0.15) (layer Edge.Cuts))
   (target plus (at 177.8 96.52) (size 5) (width 0.15) (layer Edge.Cuts))
-  (gr_text "iGrow 101 nRF51822\n(c) 2015 Argusat Limited\nrev C" (at 174.371 122.428) (layer F.Cu)
+  (gr_text "iGrow 101 nRF51822\n(c) 2015 Argusat Limited\nrev C" (at 188.214 119.38) (layer F.Cu)
     (effects (font (size 0.7 0.7) (thickness 0.125)))
   )
   (gr_line (start 181.102 132.715) (end 131.318 132.715) (angle 90) (layer Edge.Cuts) (width 0.15))
