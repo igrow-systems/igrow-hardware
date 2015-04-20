@@ -1,4 +1,4 @@
-update=Monday, 23 February 2015 09:16:06
+update=Monday, 20 April 2015 15:45:23
 last_client=kicad
 [general]
 version=1
@@ -10,9 +10,9 @@ LibName1=conn
 LibName2=nordicsemi
 LibName3=dc-dc
 LibName4=device
-LibName5=/Users/jsr/dev/igrow-nordic/hardware/igrow-100/igrow
-LibName6=power
-LibName7=/Users/jsr/dev_ext/kicad-guan/guan
-LibName8=/Users/jsr/dev_ext/kicad-joeferner/libs/PIEZO
-LibName9=linear
-LibName10=adc-dac
+LibName5=power
+LibName6=/Users/jsr/dev_ext/kicad-guan/guan
+LibName7=/Users/jsr/dev_ext/kicad-joeferner/libs/PIEZO
+LibName8=linear
+LibName9=adc-dac
+LibName10=/Users/jsr/dev/igrow-hardware/lib/igrow
