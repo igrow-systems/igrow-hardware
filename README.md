@@ -10,6 +10,8 @@ This README would normally document whatever steps are necessary to get your app
 
 ### Prototype Hardware ###
 
+![PCB 3D View](3d-pcb.png "PCB 3D View")
+
 ![Prototype Front](front-prototype.jpg "Prototype Front")
 
 ![Prototype Rear](rear-prototype.jpg "Prototype Rear")
