@@ -8,6 +8,12 @@ This README would normally document whatever steps are necessary to get your app
 * Version
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
+### Prototype Hardware ###
+
+![Prototype Front](front-prototype.jpg "Prototype Front")
+
+![Prototype Rear](rear-prototype.jpg "Prototype Rear")
+
 ### How do I get set up? ###
 
 * Summary of set up
