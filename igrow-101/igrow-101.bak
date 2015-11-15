@@ -3,12 +3,12 @@ LIBS:conn
 LIBS:nordicsemi
 LIBS:dc-dc
 LIBS:device
-LIBS:igrow
 LIBS:power
 LIBS:guan
 LIBS:PIEZO
 LIBS:linear
 LIBS:adc-dac
+LIBS:igrow
 LIBS:igrow-101-cache
 EELAYER 25 0
 EELAYER END
