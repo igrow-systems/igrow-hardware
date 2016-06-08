@@ -1,0 +1,8 @@
+
+Measured power consumption for one Advertising cycle:   2.63 mVs  across 10R, => 0.263 mAs over 200ms.  
+
+LED current consumption measured at ~ 10mA over 200ms which is 0.002mAs.  For the nRF51822 => ~ 8.6130e-04W
+
+For one advertising cycle that is 0.0043500 mAh  => CR2032 will last 6.8966e+04 cycles
+
+which is ~ 7 weeks continuous advertising.

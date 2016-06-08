@@ -1,18 +1,16 @@
-update=Monday, 20 April 2015 15:45:23
+update=Mon 06 Jun 2016 13:40:40 BST
 last_client=kicad
-[general]
-version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../../../dev_ext/kicad-library-joeferner
 [eeschema/libraries]
-LibName1=conn
-LibName2=nordicsemi
-LibName3=dc-dc
-LibName4=device
-LibName5=power
-LibName6=/Users/jsr/dev_ext/kicad-guan/guan
-LibName7=/Users/jsr/dev_ext/kicad-joeferner/libs/PIEZO
-LibName8=linear
-LibName9=adc-dac
-LibName10=/Users/jsr/dev/igrow-hardware/lib/igrow
+LibName1=igrow-101-rescue
+LibName2=conn
+LibName3=nordicsemi
+LibName4=dc-dc
+LibName5=device
+LibName6=power
+LibName7=linear
+LibName8=adc-dac
+[general]
+version=1

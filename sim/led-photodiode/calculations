@@ -1,0 +1,13 @@
+
+
+Typical LED junction capacitance pf 10-15pF
+
+Typical LED photocurrent in the visible, I think example is for 555nm emission, absorping at 525nm with a bandwidth of ~50nm, is of the order 50pA.
+
+Source:  http://electronicdesign.com/lighting/single-led-takes-both-light-emitting-and-detecting-duties
+
+
+
+Need to verify these with a physical semiconductor model perhaps.
+
+How are the emission wavelength and absorption wavelength related?

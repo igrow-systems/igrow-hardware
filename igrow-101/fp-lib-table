@@ -1,4 +1,3 @@
 (fp_lib_table
-  (lib (name guan)(type Legacy)(uri /Users/jsr/dev_ext/boards/guan.mod)(options "")(descr ""))
-  (lib (name igrow)(type KiCad)(uri /Users/jsr/dev/igrow-nordic/hardware/igrow.pretty)(options "")(descr ""))
+  (lib (name igrow)(type KiCad)(uri /home/jsr/dev/igrow-hardware/igrow.pretty)(options "")(descr ""))
 )
