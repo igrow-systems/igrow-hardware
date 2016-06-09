@@ -1,0 +1,8 @@
+### Module positions - created on Thu 09 Jun 2016 11:49:19 BST ###
+### Printed by Pcbnew version kicad 4.0.2+e4-6225~38~ubuntu15.10.1-stable
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                PosX       PosY       Rot  Side
+D6        LED       LED_0805           172.0850  -123.1900  270.0000  bottom
+D7        LED       LED_0805           177.1650  -123.1900  270.0000  bottom
+## End

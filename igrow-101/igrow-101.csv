@@ -1,0 +1,16 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"C1";"C_0603_HandSoldering";1;"C";;;
+2;"D1";"Diode-SMC_Handsoldering";1;"DIODE";;;
+3;"R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12";"R_0603_HandSoldering";12;"R";;;
+4;"SW1";"SPSTSW";1;"SW_PUSH";;;
+5;"U1";"XL51822-D01";1;"NRF51822-MODULE";;;
+6;"U2";"SHT21";1;"SHT21";;;
+7;"BT1";"CR2032_THRUHOLE";1;"BATTERY";;;
+8;"PIEZO1";"R_0805_HandSoldering";1;"PIEZO";;;
+9;"P1";"harwin_m50-3600542";1;"CONN_02X05";;;
+10;"D2";"SOD123";1;"ZENER";;;
+11;"D3,D4,D5";"LED-5MM";3;"LED";;;
+12;"P2,P3,P4,P5";"MountingHole_M3";4;"CONN_01X01";;;
+13;"Q1,Q2,Q3";"SOT-23_Handsoldering_EBC";3;"NPN";;;
+14;"W1";"Measurement_Point_Round-TH_Big";1;"TEST_1P";;;
+15;"D6,D7";"LED_0805";2;"LED";;;

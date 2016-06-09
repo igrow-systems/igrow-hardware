@@ -14,8 +14,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "iGrow Pebble 101"
-Date "Saturday, 25 April 2015"
-Rev "C"
+Date "2016-06-09"
+Rev "D"
 Comp "Argusat Limited"
 Comment1 ""
 Comment2 ""
@@ -50,7 +50,7 @@ U 1 1 54CE7CB6
 P 7400 3700
 F 0 "D6" H 7400 3800 50  0000 C CNN
 F 1 "LED" H 7400 3600 50  0000 C CNN
-F 2 "LEDs:LED-0805" H 7400 3700 60  0001 C CNN
+F 2 "LEDs:LED_0805" H 7400 3700 60  0001 C CNN
 F 3 "" H 7400 3700 60  0000 C CNN
 	1    7400 3700
 	0    1    1    0   
@@ -61,7 +61,7 @@ U 1 1 54CE7D13
 P 7700 4300
 F 0 "D7" H 7700 4400 50  0000 C CNN
 F 1 "LED" H 7700 4200 50  0000 C CNN
-F 2 "LEDs:LED-0805" H 7700 4300 60  0001 C CNN
+F 2 "LEDs:LED_0805" H 7700 4300 60  0001 C CNN
 F 3 "" H 7700 4300 60  0000 C CNN
 	1    7700 4300
 	0    1    1    0   

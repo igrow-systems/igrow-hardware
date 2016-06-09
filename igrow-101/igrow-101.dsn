@@ -26,6 +26,8 @@
     )
     (plane GND (polygon F.Cu 0  181102 -132715  131318 -132715  131318 -93218  156210 -93218
             156210 -102108  177800 -102108  177800 -93218  181102 -93218))
+    (plane GND (polygon B.Cu 0  180975 -132715  131445 -132715  131445 -93345  180975 -93345
+            180975 -132715))
     (via "Via[0-1]_889:635_um")
     (rule
       (width 381)
@@ -42,21 +44,21 @@
       (place D1 135255 -107315 front 270 (PN DIODE))
     )
     (component Resistors_SMD:R_0603_HandSoldering
-      (place R1 163830 -126365 front 0 (PN R))
-      (place R2 163830 -128270 front 0 (PN R))
-      (place R3 163830 -130175 front 0 (PN R))
+      (place R1 168910 -127000 front 270 (PN R))
+      (place R2 167640 -130175 front 0 (PN R))
+      (place R3 151765 -130175 front 0 (PN R))
       (place R4 149860 -118110 front 270 (PN R))
-      (place R5 146685 -112395 front 90 (PN R))
-      (place R6 156210 -120650 front 0 (PN R))
+      (place R5 146685 -111125 front 90 (PN R))
+      (place R6 142875 -114935 front 0 (PN R))
       (place R7 146685 -105410 front 90 (PN R))
       (place R8 146685 -98425 front 90 (PN R))
-      (place R9 156210 -122555 front 0 (PN R))
-      (place R10 163830 -124460 front 0 (PN R))
-      (place R11 163830 -122682 front 180 (PN R))
-      (place R12 156845 -126365 front 0 (PN R))
+      (place R9 154305 -125095 front 90 (PN R))
+      (place R10 164465 -123825 front 0 (PN R))
+      (place R11 167640 -121285 front 0 (PN R))
+      (place R12 179070 -116840 front 270 (PN R))
     )
     (component igrow:SPSTSW
-      (place SW1 158750 -129540 front 180 (PN SW_PUSH))
+      (place SW1 162560 -127000 front 180 (PN SW_PUSH))
     )
     (component "igrow:XL51822-D01"
       (place U1 176530 -103378 back 0 (PN "NRF51822-MODULE"))
@@ -65,7 +67,7 @@
       (place U2 153670 -97155 front 180 (PN SHT21))
     )
     (component igrow:CR2032_THRUHOLE
-      (place BT1 153670 -116205 front 270 (PN BATTERY))
+      (place BT1 153035 -121285 back 270 (PN BATTERY))
     )
     (component Resistors_SMD:R_0805_HandSoldering
       (place PIEZO1 139446 -119634 front 270 (PN PIEZO))
@@ -77,9 +79,9 @@
       (place D2 145288 -119634 front 270 (PN ZENER))
     )
     (component "LEDs:LED-5MM"
-      (place D3 142875 -111125 front 180 (PN LED))
-      (place D4 142875 -104140 front 180 (PN LED))
-      (place D5 142875 -97155 front 180 (PN LED))
+      (place D3 142875 -107950 back 0 (PN LED))
+      (place D4 142875 -102235 back 0 (PN LED))
+      (place D5 142875 -96520 back 0 (PN LED))
     )
     (component igrow:MountingHole_M3
       (place P2 134620 -96520 front 0 (PN CONN_01X01))
@@ -88,12 +90,16 @@
       (place P5 177800 -96520 front 0 (PN CONN_01X01))
     )
     (component "igrow:SOT-23_Handsoldering_EBC"
-      (place Q1 139954 -126746 front 0 (PN NPN))
-      (place Q2 145034 -126746 front 0 (PN NPN))
-      (place Q3 150114 -126746 front 0 (PN NPN))
+      (place Q1 149860 -124460 front 0 (PN NPN))
+      (place Q2 160020 -122555 front 0 (PN NPN))
+      (place Q3 160655 -130175 front 270 (PN NPN))
     )
     (component "Measurement_Points:Measurement_Point_Round-TH_Big"
       (place W1 172720 -129540 front 0 (PN TEST_1P))
+    )
+    (component LEDs:LED_0805
+      (place D6 172085 -123190 back 90 (PN LED))
+      (place D7 177165 -123190 back 90 (PN LED))
     )
   )
   (library
@@ -277,6 +283,23 @@
             540.78 1664.35  1028.62 1415.78  1415.78 1028.62  1664.35 540.78))
       (pin Round[A]Pad_3000_um 1 0 0)
     )
+    (image LEDs:LED_0805
+      (outline (path signal 150  -1600 -750  1100 -750))
+      (outline (path signal 150  -1600 750  1100 750))
+      (outline (path signal 150  -100 -150  -100 100))
+      (outline (path signal 150  -100 100  -250 -50))
+      (outline (path signal 150  -350 350  -350 -350))
+      (outline (path signal 150  0 0  350 0))
+      (outline (path signal 150  -350 0  0 350))
+      (outline (path signal 150  0 350  0 -350))
+      (outline (path signal 150  0 -350  -350 0))
+      (outline (path signal 50  1900 950  1900 -950))
+      (outline (path signal 50  1900 -950  -1900 -950))
+      (outline (path signal 50  -1900 -950  -1900 950))
+      (outline (path signal 50  -1900 950  1900 950))
+      (pin Rect[T]Pad_1198.88x1198.88_um (rotate 180) 2 1049.02 0)
+      (pin Rect[T]Pad_1198.88x1198.88_um (rotate 180) 1 -1049.02 0)
+    )
     (padstack Round[A]Pad_1000_um
       (shape (circle F.Cu 1000))
       (shape (circle B.Cu 1000))
@@ -333,6 +356,10 @@
     )
     (padstack Rect[T]Pad_910x1220_um
       (shape (rect F.Cu -455 -610 455 610))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1198.88x1198.88_um
+      (shape (rect F.Cu -599.44 -599.44 599.44 599.44))
       (attach off)
     )
     (padstack Rect[T]Pad_1200x750_um
@@ -494,10 +521,10 @@
       (pins R8-2 D5-1)
     )
     (net "Net-(D6-Pad2)"
-      (pins Q2-3)
+      (pins Q2-3 D6-2)
     )
     (net "Net-(D7-Pad2)"
-      (pins Q3-3)
+      (pins Q3-3 D7-2)
     )
     (net "Net-(R2-Pad1)"
       (pins R2-1 U1-22)
@@ -515,10 +542,10 @@
       (pins R9-2 U1-21)
     )
     (net "Net-(D6-Pad1)"
-      (pins R11-2)
+      (pins R11-2 D6-1)
     )
     (net "Net-(D7-Pad1)"
-      (pins R12-2)
+      (pins R12-2 D7-1)
     )
     (class kicad_default "" GND "Net-(D2-Pad1)" "Net-(D2-Pad2)" "Net-(D3-Pad1)"
       "Net-(D4-Pad1)" "Net-(D5-Pad1)" "Net-(D6-Pad1)" "Net-(D6-Pad2)" "Net-(D7-Pad1)"
