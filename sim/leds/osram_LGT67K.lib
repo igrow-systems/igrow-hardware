@@ -1,0 +1,19 @@
+
+*
+* @(#)osram_LGT67K.lib   
+*
+* Copyright (c) 2016 Argusat Limited
+* 10 Underwood Road,  Southampton.  UK
+* All rights reserved.
+*
+* This software is the confidential and proprietary information of 
+* Argusat Limited. ("Confidential Information").  You shall not
+* disclose such Confidential Information and shall use it only in
+* accordance with the terms of the license agreement you entered into
+* with Argusat Limited.
+*
+
+.MODEL osram_LGT67K d
++IS = -1.10573545051e-20
++N = 1.76800549372
++RS = 1.77484085505

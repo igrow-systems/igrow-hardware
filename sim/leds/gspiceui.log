@@ -1,0 +1,25 @@
+Warning: can't parse '2#branch': ignored
+
+Error(parse.c--checkvalid): #branch: no such vector.
+
+Circuit: ********************************************************************************
+
+Doing analysis at TEMP = 0.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 41
+
+CPU time since last call: 0.012 seconds.
+
+Total CPU time: 0.012 seconds.
+
+Total DRAM available = 7897.375000 MB.
+DRAM currently available = 2502.281250 MB.
+Total ngspice program size = 14.845703 MB.
+Resident set size = 1.958008 MB.
+Shared ngspice pages = 1.669922 MB.
+Text (code) pages = 1.333008 MB.
+Stack = 0 bytes.
+Library pages = 333.000 kB.
+
+
