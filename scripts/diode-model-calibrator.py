@@ -8,6 +8,9 @@ from scipy.special import lambertw
  
 def func(VS, IS, N, RS):
 #Define model for diode (see wikipedia article)
+    if IS < 0 or N < 0 or RS < 0:
+        return 1e10
+    
     VT = 26e-3
     w = lambertw((IS * RS /(N * VT)) * np.exp((VS + IS * RS) / (N * VT)))
     Current = np.log10((IS * ((w * N * VT / (RS * IS)) - 1) * 1000))

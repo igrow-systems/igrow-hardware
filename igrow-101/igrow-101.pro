@@ -1,4 +1,4 @@
-update=Mon 06 Jun 2016 13:40:40 BST
+update=Sat 09 Jul 2016 13:41:09 BST
 last_client=kicad
 [eeschema]
 version=1
@@ -14,3 +14,13 @@ LibName7=linear
 LibName8=adc-dac
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

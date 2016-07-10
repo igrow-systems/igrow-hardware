@@ -7,15 +7,15 @@ No. of Data Columns : 4
 
 No. of Data Rows : 101
 .print line ignored since rawfile was produced.
-CPU time since last call: 0.012 seconds.
+CPU time since last call: 0.008 seconds.
 
-Total CPU time: 0.012 seconds.
+Total CPU time: 0.008 seconds.
 
 Total DRAM available = 7897.375000 MB.
-DRAM currently available = 4097.847656 MB.
+DRAM currently available = 3821.671875 MB.
 Total ngspice program size = 14.845703 MB.
-Resident set size = 1.978516 MB.
-Shared ngspice pages = 1.691406 MB.
+Resident set size = 1.966797 MB.
+Shared ngspice pages = 1.679688 MB.
 Text (code) pages = 1.333008 MB.
 Stack = 0 bytes.
 Library pages = 333.000 kB.
