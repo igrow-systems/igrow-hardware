@@ -1,24 +1,24 @@
-### Module positions - created on Thu 09 Jun 2016 11:49:19 BST ###
-### Printed by Pcbnew version kicad 4.0.2+e4-6225~38~ubuntu15.10.1-stable
+### Module positions - created on Tue Aug 30 13:59:34 2016 ###
+### Printed by Pcbnew version kicad 4.0.3+e1-6302~38~ubuntu16.04.1-stable
 ## Unit = mm, Angle = deg.
 ## Side : top
 # Ref     Val       Package                        PosX       PosY       Rot  Side
-C1        C         C_0603_HandSoldering       149.2250   -98.4250   90.0000  top
+C1        100nF     C_0603_HandSoldering       149.2250   -98.4250   90.0000  top
 D1        DIODE     Diode-SMC_Handsoldering    135.2550  -107.3150  270.0000  top
 PIEZO1    PIEZO     R_0805_HandSoldering       139.4460  -119.6340  270.0000  top
 Q1        NPN       SOT-23_Handsoldering_EBC   149.8600  -124.4600    0.0000  top
 Q2        NPN       SOT-23_Handsoldering_EBC   160.0200  -122.5550    0.0000  top
 Q3        NPN       SOT-23_Handsoldering_EBC   160.6550  -130.1750  270.0000  top
-R1        R         R_0603_HandSoldering       168.9100  -127.0000  270.0000  top
-R2        R         R_0603_HandSoldering       167.6400  -130.1750    0.0000  top
+R1        10kR      R_0603_HandSoldering       168.9100  -127.0000  270.0000  top
+R2        150R      R_0603_HandSoldering       167.6400  -130.1750    0.0000  top
 R3        R         R_0603_HandSoldering       151.7650  -130.1750    0.0000  top
 R4        R         R_0603_HandSoldering       149.8600  -118.1100  270.0000  top
-R5        R         R_0603_HandSoldering       146.6850  -111.1250   90.0000  top
+R5        220R      R_0603_HandSoldering       146.6850  -111.1250   90.0000  top
 R6        R         R_0603_HandSoldering       142.8750  -114.9350    0.0000  top
-R7        R         R_0603_HandSoldering       146.6850  -105.4100   90.0000  top
-R8        R         R_0603_HandSoldering       146.6850   -98.4250   90.0000  top
-R9        R         R_0603_HandSoldering       154.3050  -125.0950   90.0000  top
-R10       R         R_0603_HandSoldering       164.4650  -123.8250    0.0000  top
-R11       R         R_0603_HandSoldering       167.6400  -121.2850    0.0000  top
-R12       R         R_0603_HandSoldering       179.0700  -116.8400  270.0000  top
+R7        220R      R_0603_HandSoldering       146.6850  -105.4100   90.0000  top
+R8        220R      R_0603_HandSoldering       146.6850   -98.4250   90.0000  top
+R9        10kR      R_0603_HandSoldering       154.3050  -125.0950   90.0000  top
+R10       10kR      R_0603_HandSoldering       164.4650  -123.8250    0.0000  top
+R11       620R      R_0603_HandSoldering       167.6400  -121.2850    0.0000  top
+R12       620R      R_0603_HandSoldering       179.0700  -116.8400  270.0000  top
 ## End

@@ -1,0 +1,125 @@
+** Drc report for /home/jsr/dev/igrow-hardware/igrow-101/igrow-101.kicad_pcb **
+** Created on 2016-08-28 17:35:00 **
+
+** Found 39 DRC errors **
+ErrType(19): Pad near pad
+    @ (151.670 mm,96.955 mm): Pad 3 on F.Cu, Non-copper of U2
+    @ (152.670 mm,96.955 mm): Pad 2 on F.Cu, Non-copper of U2
+ErrType(19): Pad near pad
+    @ (151.670 mm,99.755 mm): Pad 4 on F.Cu, Non-copper of U2
+    @ (152.670 mm,98.355 mm): Pad 7 on F.Cu, Non-copper of U2
+ErrType(19): Pad near pad
+    @ (152.670 mm,96.955 mm): Pad 2 on F.Cu, Non-copper of U2
+    @ (152.670 mm,98.355 mm): Pad 7 on F.Cu, Non-copper of U2
+ErrType(19): Pad near pad
+    @ (152.670 mm,98.355 mm): Pad 7 on F.Cu, Non-copper of U2
+    @ (152.670 mm,99.755 mm): Pad 5 on F.Cu, Non-copper of U2
+ErrType(19): Pad near pad
+    @ (152.670 mm,99.755 mm): Pad 5 on F.Cu, Non-copper of U2
+    @ (153.670 mm,99.755 mm): Pad 6 on F.Cu, Non-copper of U2
+ErrType(19): Pad near pad
+    @ (156.950 mm,103.500 mm): Pad 36 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (156.950 mm,104.770 mm): Pad 35 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (156.950 mm,104.770 mm): Pad 35 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (156.950 mm,106.040 mm): Pad 34 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (156.950 mm,106.040 mm): Pad 34 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (156.950 mm,107.310 mm): Pad 33 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (156.950 mm,107.310 mm): Pad 33 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (156.950 mm,108.580 mm): Pad 32 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (156.950 mm,108.580 mm): Pad 32 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (156.950 mm,109.850 mm): Pad 31 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (156.950 mm,109.850 mm): Pad 31 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (156.950 mm,111.120 mm): Pad 30 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (156.950 mm,111.120 mm): Pad 30 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (156.950 mm,112.390 mm): Pad 29 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (156.950 mm,112.390 mm): Pad 29 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (156.950 mm,113.660 mm): Pad 28 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (156.950 mm,113.660 mm): Pad 28 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (156.950 mm,114.930 mm): Pad 27 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (156.950 mm,114.930 mm): Pad 27 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (156.950 mm,116.200 mm): Pad 26 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (156.950 mm,116.200 mm): Pad 26 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (156.950 mm,117.470 mm): Pad 25 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (159.490 mm,118.105 mm): Pad 24 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (160.760 mm,118.105 mm): Pad 23 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (160.760 mm,118.105 mm): Pad 23 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (162.030 mm,118.105 mm): Pad 22 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (162.030 mm,118.105 mm): Pad 22 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (163.300 mm,118.105 mm): Pad 21 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (163.300 mm,118.105 mm): Pad 21 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (164.570 mm,118.105 mm): Pad 20 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (164.570 mm,118.105 mm): Pad 20 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (165.840 mm,118.105 mm): Pad 19 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (165.840 mm,118.105 mm): Pad 19 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (167.110 mm,118.105 mm): Pad 18 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (167.110 mm,118.105 mm): Pad 18 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (168.380 mm,118.105 mm): Pad 17 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (168.380 mm,118.105 mm): Pad 17 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (169.650 mm,118.105 mm): Pad 16 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (169.650 mm,118.105 mm): Pad 16 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (170.920 mm,118.105 mm): Pad 15 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (170.920 mm,118.105 mm): Pad 15 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (172.190 mm,118.105 mm): Pad 14 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (172.190 mm,118.105 mm): Pad 14 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (173.460 mm,118.105 mm): Pad 13 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (176.000 mm,103.500 mm): Pad 1 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (176.000 mm,104.770 mm): Pad 2 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (176.000 mm,104.770 mm): Pad 2 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (176.000 mm,106.040 mm): Pad 3 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (176.000 mm,106.040 mm): Pad 3 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (176.000 mm,107.310 mm): Pad 4 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (176.000 mm,107.310 mm): Pad 4 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (176.000 mm,108.580 mm): Pad 5 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (176.000 mm,108.580 mm): Pad 5 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (176.000 mm,109.850 mm): Pad 6 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (176.000 mm,109.850 mm): Pad 6 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (176.000 mm,111.120 mm): Pad 7 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (176.000 mm,111.120 mm): Pad 7 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (176.000 mm,112.390 mm): Pad 8 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (176.000 mm,112.390 mm): Pad 8 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (176.000 mm,113.660 mm): Pad 9 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (176.000 mm,113.660 mm): Pad 9 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (176.000 mm,114.930 mm): Pad 10 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (176.000 mm,114.930 mm): Pad 10 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (176.000 mm,116.200 mm): Pad 11 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(19): Pad near pad
+    @ (176.000 mm,116.200 mm): Pad 11 on F.Cu, B.Cu, Internal, Non-copper of U1
+    @ (176.000 mm,117.470 mm): Pad 12 on F.Cu, B.Cu, Internal, Non-copper of U1
+ErrType(40): Track inside a text
+    @ (174.620 mm,119.004 mm): Track 0.500 mm, net [VCC] (2) on layer F.Cu, length: 7.927 mm
+    @ (175.895 mm,123.825 mm): Pcb Text "iGrow 101 (c..." on F.Cu
+
+** Found 0 unconnected pads **
+
+** End of Report **
