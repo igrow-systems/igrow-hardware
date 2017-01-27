@@ -14,7 +14,6 @@ This README would normally document whatever steps are necessary to get your app
 
 ![Prototype Front](front-prototype.jpg "Prototype Front")
 
-![Prototype Rear](rear-prototype.jpg "Prototype Rear")
 
 ### How do I get set up? ###
 
